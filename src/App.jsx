@@ -1,14 +1,11 @@
-
-import './App.css'
-import Users from './views/users'
-
+import { RouterProvider } from "react-router-dom"
+import router from "./routes"
 
 function App() {
 
   return (
     <>
-    <Users />
-  
+      <RouterProvider router={router} />
     </>
   )
 }
